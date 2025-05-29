@@ -8,7 +8,7 @@ const AboutContent: React.FC = () => {
         {/* Main About Section */}
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-gray-700 mb-8">
-            Founded in 2005, LKR & Associates has established itself as a leading business consultancy firm, 
+            Founded in 2025, LKR & Associates has established itself as a leading business consultancy firm, 
             providing expert guidance and innovative solutions to businesses of all sizes across multiple industries.
           </p>
           

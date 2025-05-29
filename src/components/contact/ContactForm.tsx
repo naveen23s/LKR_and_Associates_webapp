@@ -218,9 +218,9 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Address</h3>
                     <p className="text-gray-700">
-                      123 Business Avenue, Suite 400<br />
-                      New York, NY 10001<br />
-                      United States
+                      0/2 18, Southside Crescent<br />
+                      Glassgow<br />
+                      UK, G5 0TQ
                     </p>
                   </div>
                 </div>
@@ -231,7 +231,7 @@ const ContactForm: React.FC = () => {
                     <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-700">
                       <a href="tel:+15551234567" className="hover:text-blue-600 transition-colors duration-200">
-                        (555) 123-4567
+                        (+91) 9551553510
                       </a>
                     </p>
                   </div>
@@ -242,8 +242,8 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-700">
-                      <a href="mailto:info@lkrassociates.com" className="hover:text-blue-600 transition-colors duration-200">
-                        info@lkrassociates.com
+                      <a href="mailto:dleelakrishnareddy@gmail.com" className="hover:text-blue-600 transition-colors duration-200">
+                        dleelakrishnareddy@gmail.com
                       </a>
                     </p>
                   </div>

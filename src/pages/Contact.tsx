@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
       {/* Map Section */}
       <div className="h-96 w-full bg-gray-200">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343034!2d-74.0060152843508!3d40.71250084512304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a165bedccab%3A0x2cb2ddf003b5ae01!2sWall%20St%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1662489000000!5m2!1sen!2sca" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.9421699272693!2d-4.255765324137744!3d55.84631818478553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488846968f76af6d%3A0x1687b417d09b8813!2s0%202%2C%2018%20Southside%20Cres%2C%20Glasgow%20G5%200TQ%2C%20UK!5e0!3m2!1sen!2sse!4v1748553315441!5m2!1sen!2sse" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 

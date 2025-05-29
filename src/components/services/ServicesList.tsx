@@ -40,18 +40,6 @@ const services = [
     ],
   },
   {
-    id: 4,
-    title: 'HR Consulting',
-    description: 'Effective human resource solutions to build and maintain a productive workforce. From recruitment strategies to performance management systems, we help you optimize your human capital.',
-    icon: <Users className="h-12 w-12 text-blue-600" />,
-    features: [
-      'Talent acquisition and retention',
-      'Performance management systems',
-      'Compensation and benefits planning',
-      'Organizational development',
-    ],
-  },
-  {
     id: 5,
     title: 'Market Analysis',
     description: 'In-depth market research and competitive analysis to identify opportunities and threats. We provide actionable insights on market trends, customer behavior, and competitive positioning.',
