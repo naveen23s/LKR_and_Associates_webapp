@@ -91,6 +91,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Duvvuru Naveen Sai Reddy - naveensaireddy1992@gmail.com
+Duvvuru Leela Krishna Reddy - dleelakrishnareddy@gmail.com
 
-Project Link: [https://www.lkrandassociates.com](https://lkrandassociates.com)
+Project Link: [https://lkrandassociates.com](https://lkrandassociates.com)

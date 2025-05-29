@@ -34,14 +34,16 @@ const Navbar: React.FC = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        scrolled 
+          ? 'bg-white/95 shadow-md py-2' 
+          : 'bg-blue-900/95 py-4'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-blue-900">LKR</span>
-            <span className="text-xl text-gray-700 ml-2 hidden sm:inline-block">& Associates</span>
+            <span className={`text-2xl font-bold ${scrolled ? 'text-blue-900' : 'text-white'}`}>LKR</span>
+            <span className={`text-xl ml-2 hidden sm:inline-block ${scrolled ? 'text-gray-700' : 'text-gray-200'}`}>& Associates</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -52,8 +54,12 @@ const Navbar: React.FC = () => {
                 to={link.path}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   location.pathname === link.path
-                    ? 'text-blue-600 border-b-2 border-blue-600'
-                    : 'text-gray-700 hover:text-blue-600'
+                    ? scrolled 
+                      ? 'text-blue-600 border-b-2 border-blue-600'
+                      : 'text-white border-b-2 border-white'
+                    : scrolled
+                      ? 'text-gray-700 hover:text-blue-600'
+                      : 'text-gray-100 hover:text-white hover:border-b-2 hover:border-white'
                 }`}
               >
                 {link.name}
@@ -68,9 +74,9 @@ const Navbar: React.FC = () => {
             aria-label="Toggle menu"
           >
             {isOpen ? (
-              <X className="h-6 w-6 text-gray-700" />
+              <X className={`h-6 w-6 ${scrolled ? 'text-gray-700' : 'text-white'}`} />
             ) : (
-              <Menu className="h-6 w-6 text-gray-700" />
+              <Menu className={`h-6 w-6 ${scrolled ? 'text-gray-700' : 'text-white'}`} />
             )}
           </button>
         </div>
